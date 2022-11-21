@@ -42,7 +42,7 @@ export class TodoListComponent implements DoCheck {
       const confirm = window.confirm("Task está vazia, deseja Deletar?");
 
       if(confirm) {
-        this.deleteAllTaskList();
+        this.deleteItemTaskList(index);
       }
     }
   }
