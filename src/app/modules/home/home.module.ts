@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ComponentsComponent } from './components/components.component';
 
 // Components
 import { HeaderComponent } from './components/header/header.component';
@@ -15,7 +14,6 @@ import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
-    ComponentsComponent,
     HeaderComponent,
     TodoButtonDeleteAllComponent,
     TodoInputAddItensComponent,
